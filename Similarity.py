@@ -1,5 +1,3 @@
-
-from tkinter import E
 import pandas as pd
 import numpy as np
 from rdkit.Chem import MACCSkeys
