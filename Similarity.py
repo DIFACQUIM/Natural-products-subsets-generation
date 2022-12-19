@@ -8,12 +8,12 @@ from rdkit.Chem import AllChem
 from scipy.spatial.distance import pdist
 
 # Read files
-subset_a = pd.read_csv("/home/ana/Documentos/FINGERPRINT/HANNA/GitHub/MaxMin/DATASET/UNPD_subset_A_14994_curada_NPL_score.csv")
-subset_b = pd.read_csv("/home/ana/Documentos/FINGERPRINT/HANNA/GitHub/MaxMin/DATASET/UNPD_subset_B_7497_curada_NPL_score.csv") 
-subset_c = pd.read_csv("/home/ana/Documentos/FINGERPRINT/HANNA/GitHub/MaxMin/DATASET/UNPD_subset_C_4998_curada_NPL_score.csv") 
-subset_real = pd.read_csv("/home/ana/Documentos/FINGERPRINT/HANNA/GitHub/MaxMin/DATASET/REAL_subset_3809_curada_NPL_score.csv")
-biofacquim = pd.read_csv("/home/ana/Documentos/FINGERPRINT/HANNA/GitHub/MaxMin/DATASET/BIOFACQUIM.V2_NPL_Score.csv")
-dnmt1 = pd.read_csv("/home/ana/Documentos/FINGERPRINT/HANNA/GitHub/MaxMin/DATASET/DNMT1_ACTIVITIES_714_27SEP22_NPL_score.csv")
+subset_a = pd.read_csv("UNPD_subset_A_14994_curada_NPL_score.csv")
+subset_b = pd.read_csv("UNPD_subset_B_7497_curada_NPL_score.csv") 
+subset_c = pd.read_csv("UNPD_subset_C_4998_curada_NPL_score.csv") 
+subset_real = pd.read_csv("REAL_subset_3809_curada_NPL_score.csv")
+biofacquim = pd.read_csv("BIOFACQUIM.V2_NPL_Score.csv")
+dnmt1 = pd.read_csv("DNMT1_ACTIVITIES_714_27SEP22_NPL_score.csv")
 
 smi_a = list(subset_a["SMILES_chiral"])
 smi_b = list(subset_b["SMILES_chiral"])
