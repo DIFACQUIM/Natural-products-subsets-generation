@@ -1,1 +1,1 @@
-# Natural-products-subsets-generation
+# Natural-products-subsets-generation:generation-and-characterization 
