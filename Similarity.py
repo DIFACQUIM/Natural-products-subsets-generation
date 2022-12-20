@@ -46,7 +46,7 @@ ecfp_3 = [ECFP(smi_a, 3), ECFP(smi_b, 3), ECFP(smi_c, 3), ECFP(smi_real, 3), ECF
 print(ecfp_3)
 MACCS_keys = [MACCS(smi_a), MACCS(smi_b), MACCS(smi_c), MACCS(smi_real), MACCS(smi_biofacquim), MACCS(smi_dnmt1)]
 print(ecfp_3)
-Collection = ["SUBSET_A", "SUBSET_B", "SUBSET_C", "SUBSET_REAL", "BIOFACQUIM", "DNMT1"]
+Collection = ["UNPD_SUBSET_A", "UNPD_SUBSET_B", "UNPD_SUBSET_C", "REAL-Enamine_SUBSET", "BIOFACQUIM", "DNMT1"]
 Compounds = [len(subset_a), len(subset_b), len(subset_c), len(subset_real), len(biofacquim), len(dnmt1)]
 
 arr = np.array([Collection, Compounds, MACCS_keys, ecfp_2, ecfp_3])
