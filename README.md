@@ -9,7 +9,7 @@ the MaxMin algorithm and structural diversity implemented in Python language; th
 A significant perspective of this work is that the natural product subsets derived from the UNPD can be used to develop generative models that use deep learning algorithms and require the most diverse compounds, such as de novo design. The natural products subsets can also be used to develop predictive models; for virtual screening; and reference databases for evaluating the structural diversity or similarity to a specific subset, among other applications.
 
 
-## References
+#### References
 
 G. Hessler, K.-H. Baringhaus, Artificial intelligence in drug design, Molecules. 23 (2018) 2520.
 T. Sousa, J. Correia, V. Pereira, M. Rocha, Generative deep learning for targeted compound design, J. Chem. Inf. Model. 61 (2021) 5343–5361.
