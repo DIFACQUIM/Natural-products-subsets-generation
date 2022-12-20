@@ -11,3 +11,5 @@ the new REAL-Enamine subset,
 
 and the three subsets generated from UNPD with 14,994, 7,497, and 4,998 compounds with stereochemical information.
 
+
+A significant perspective of this work is that the natural product subsets derived from the UNPD can be used to develop generative models that use deep learning algorithms and require the most diverse compounds, such as de novo design. The natural products subsets can also be used to develop predictive models; for virtual screening; and reference databases for evaluating the structural diversity or similarity to a specific subset, among other applications.
