@@ -11,6 +11,9 @@ A significant perspective of this work is that the natural product subsets deriv
 #### References
 
 G. Hessler, K.-H. Baringhaus, Artificial intelligence in drug design, Molecules. 23 (2018) 2520.
+
 T. Sousa, J. Correia, V. Pereira, M. Rocha, Generative deep learning for targeted compound design, J. Chem. Inf. Model. 61 (2021) 5343–5361.
+
 Y. Jing, Y. Bian, Z. Hu, L. Wang, X.-Q. Xie, Deep learning for drug design: an artificial intelligence paradigm for drug discovery in the big data era, AAPS J. 20 (2018) 58.
+
 F. Miljković, R. Rodríguez-Pérez, J. Bajorath, Impact of artificial intelligence on compound discovery, design, and synthesis, ACS Omega. 6 (2021) 33293–33299.
