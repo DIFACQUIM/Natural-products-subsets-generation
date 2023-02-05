@@ -1,5 +1,3 @@
-
-from tkinter import E
 import pandas as pd
 import numpy as np
 from rdkit.Chem import MACCSkeys
@@ -21,9 +19,6 @@ smi_c = list(smi_c["SMILES_chiral"])
 unpd = smi_unpd[["SMILES_chiral"]]
 smi_biofacquim = list(smi_biofacquim["SMILES_chiral"])
 smi_dnmt1 = list(smi_dnmt1["SMILES_chiral"])
-
-print(len(smi_biofacquim))
-print(len(smi_dnmt1))
 
 # sample 1
 print(unpd.shape)
@@ -80,28 +75,6 @@ def MACCS (smi):
     SimMat = round(np.median(SimMat), 3) 
     return SimMat
 
-def ECFP_UNPD_sample(dataframe, radious):
-    for i in range(10):
-        fp = []
-        sample = dataframe.sample(2000, random_state=i).copy()
-        smi = list(sample["SMILES_chiral"])
-        fps = ECFP(smi, radious)
-        fp.append(fps)
-    return round(np.median(fp), 3)
-
-def MACCSkeys_UNPD_sample(dataframe):
-  for i in range(10):
-    fp = []
-    sample = dataframe.sample(2000, random_state=1).copy()
-    smi = list(sample["SMILES_chiral"])
-    fps = MACCS(smi)
-    fp.append(fps)
-  return round(np.median(fp), 3)
-
-print(ECFP(smi_biofacquim, 2))
-print(ECFP(smi_dnmt1, 2))
-print(MACCS(smi_dnmt1))
-
 ecfp_2 = [ECFP(smi_a, 2), ECFP(smi_b, 2), ECFP(smi_c, 2), ECFP(smi_unpd, 2), ECFP(smi_biofacquim, 2), ECFP(smi_dnmt1, 2)]
 print(ecfp_2)
 ecfp_3 = [ECFP(smi_a, 3), ECFP(smi_b, 3), ECFP(smi_c, 3), ECFP(smi_unpd, 3), ECFP(smi_biofacquim, 3), ECFP(smi_dnmt1, 3)]
@@ -109,7 +82,7 @@ print(ecfp_3)
 MACCS_keys = [MACCS(smi_a), MACCS(smi_b), MACCS(smi_c), MACCS(smi_unpd), MACCS(smi_biofacquim), MACCS(smi_dnmt1)]
 print(ecfp_3)
 Collection = ["UNPD_SUBSET_A", "UNPD_SUBSET_B", "UNPD_SUBSET_C", "UNPD", "BIOFACQUIM", "DNMT1"]
-Compounds = [len(smi_a), len(smi_b), len(smi_c), len(smi_unpd), len(smi_biofacquim), len(smi_dnmt1)]
+Compounds = [len(smi_a), len(smi_b), len(smi_c), len(unpd), len(smi_biofacquim), len(smi_dnmt1)]
 
 arr = np.array([Collection, Compounds, MACCS_keys, ecfp_2, ecfp_3])
 arr = np.transpose(arr)
