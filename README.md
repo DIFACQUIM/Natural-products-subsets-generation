@@ -7,7 +7,7 @@ the MaxMin algorithm and structural diversity implemented in Python language; th
 
 A significant perspective of this work is that the natural product subsets derived from the UNPD can be used to develop generative models that use deep learning algorithms and require the most diverse compounds, such as de novo design. The natural products subsets can also be used to develop predictive models; for virtual screening; and reference databases for evaluating the structural diversity or similarity to a specific subset, among other applications.
 
-![Figure](https://github.com/AnaChavezHdz/Natural-products-subsets-generation/blob/8d6ccfffeffaecaf32eb1a5572ee6185c53cb54c/Graphical_abstract.jpg))
+![Figure](https://github.com/AnaChavezHdz/Natural-products-subsets-generation/blob/8d6ccfffeffaecaf32eb1a5572ee6185c53cb54c/Graphical_abstract.jpg)
 
 #### References
 
