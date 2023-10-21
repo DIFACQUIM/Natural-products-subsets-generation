@@ -11,6 +11,6 @@ A significant perspective of this work is that the natural product subsets deriv
 
 #### References
 
-Please cite our paper:
+Please, cite our paper:
 
 Chávez-Hernández, A. L., & Medina-Franco, J. L. (2023). Natural products subsets: Generation and characterization. Artificial Intelligence in the Life Sciences, 3, 100066.https://doi.org/10.1016/j.ailsci.2023.100066
